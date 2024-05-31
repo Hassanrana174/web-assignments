@@ -1,0 +1,79 @@
+.btn{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    margin-left: 10px;
+}
+.navigation{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.btn{
+   padding-left: 10px;
+   padding-right: 40px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border-radius: 20px;
+}
+.btn{
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+ }
+.btn-visit{
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: rgb(174, 62, 62);
+    color: black;
+    border-color: rgb(123, 205, 112);
+
+ }
+ .btn-visit:hover{
+    background-color: red;
+    color: white;
+    border-color: black;
+    height: 50px;
+    width: 130px;
+
+ }
+.hero {
+    height: 85vh;
+    width: 100vw;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPkp_DHbPxvpcRCPJg5JVf14rjlBWvh5TBCVt0hlqoGA&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    color: rgb(2, 18, 89);
+    padding: 20px;
+}
+.grid-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.item{
+    width: 400px;
+    height: 250px;
+    background-color: rgb(67, 186, 132);
+    margin: 5px;
+    border-radius: 20px;
+}
